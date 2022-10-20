@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# 屏蔽idea配置目录
+/.idea
+
+# 屏蔽编译输出目录
+/cmake-build-debug

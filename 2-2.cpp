@@ -1,11 +1,14 @@
-#include "include/List.hpp"
+#include "List.hpp"
 using namespace std;
 
 int main()
 {
-    int a = 6, b = 5, c[] = {1, 2, 3, 4, 5, 6};
+    int c[] = {1, 2, 3, 4, 5, 6}, a=1,b=7;
     List<int> list(c, 6);
     list.print();
-    list.print(true);
+    list.pop_front();
+    list.print();
+    list.pop_back();
+    list.print();
     return 0;
 }
